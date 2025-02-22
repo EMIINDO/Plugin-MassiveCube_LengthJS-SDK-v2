@@ -1,0 +1,64 @@
+﻿{
+	"lengthjs": {
+		"conditions": [
+
+		],
+		"actions": [
+			{
+				"id": "setval",
+				"scriptName": "setupValue",
+				"highlight": false,
+				"params":
+				[
+					{"id": "num", "type": "number", "initialValue":  "0"},
+					{"id": "type", "type": "combo", "items": ["picometre","nanometre","micrometre","millimetre","centimetre","decimetre","metre","decametre","hectoametre","kilometre","nautical mile","foot","inch","yard","fathom","mile","lunar distance","astronomical unit","light year","parsec"], "initialValue": "parsec"}
+				]
+			},
+			{
+				"id": "tovalue",
+				"scriptName": "toValue",
+				"highlight": false,
+				"params":
+				[
+					{"id": "type", "type": "combo", "items": ["picometre","nanometre","micrometre","millimetre","centimetre","decimetre","metre","decametre","hectoametre","kilometre","nautical mile","foot","inch","yard","fathom","mile","lunar distance","astronomical unit","light year","parsec"], "initialValue": "parsec"}
+				]
+			},
+			{
+				"id": "addval",
+				"scriptName": "addValue",
+				"highlight": false,
+				"params":
+				[
+					{"id": "num", "type": "number", "initialValue":  "0"},
+					{"id": "type", "type": "combo", "items": ["picometre","nanometre","micrometre","millimetre","centimetre","decimetre","metre","decametre","hectoametre","kilometre","nautical mile","foot","inch","yard","fathom","mile","lunar distance","astronomical unit","light year","parsec"], "initialValue": "parsec"}
+				]
+			},
+			{
+				"id": "toprecision",
+				"scriptName": "toPrecision",
+				"highlight": false,
+				"params":
+				[
+					{"id": "num", "type": "number", "initialValue":  "0"}
+				]
+			}
+		],
+		"expressions": [
+			{
+				"id": "getstring",
+				"expressionName": "getString",
+				"returnType": "string"
+			},
+			{
+				"id": "getunit",
+				"expressionName": "getUnit",
+				"returnType": "string"
+			},
+			{
+				"id": "getvalue",
+				"expressionName": "getValue",
+				"returnType": "number"
+			}
+		]
+	}
+}

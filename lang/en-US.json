@@ -1,0 +1,156 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "JavaScript Library for Length Units Conversion.",
+	"text": {
+		"plugins": {
+			"massivecube_lengthjs": {
+				"name": "Length JS",
+				"description": "JavaScript Library for Length Units Conversion.",
+				"help-url": "https://www.construct.net",
+				"properties": {
+
+				},
+				"aceCategories": {
+					"lengthjs": "Length JS"
+				},
+				"conditions": {
+
+				},
+				"actions": {
+					"setval": {
+						"list-name": "Setup Value",
+						"display-text": "Setup Value {0} {1}",
+						"description": "Creates an object which contains value and unit.",
+						"params": {
+							"num": {
+								"name": "Number", 
+								"desc": "Number of units."
+							},
+							"type": {
+								"name": "Unit type", 
+								"desc": "Unit type.",
+								"items": {
+									"picometre": "picometre",
+									"nanometre": "nanometre",
+									"micrometre": "micrometre",
+									"millimetre": "millimetre",
+									"centimetre": "centimetre",
+									"decimetre": "decimetre",
+									"metre": "metre",
+									"decametre": "decametre",
+									"hectoametre": "hectoametre",
+									"kilometre": "kilometre",
+									"nautical mile": "nautical mile",
+									"foot": "foot",
+									"inch": "inch",
+									"yard": "yard",
+									"fathom": "fathom",
+									"mile": "mile",
+									"lunar distance": "lunar distance",
+									"astronomical unit": "astronomical unit",
+									"light year": "light year",
+									"parsec": "parsec"
+								}
+							}
+						}
+					},
+					"tovalue": {
+						"list-name": "to Unit",
+						"display-text": "to Unit {0}",
+						"description": "to Unit.",
+						"params": {
+							"type": {
+								"name": "Unit type", 
+								"desc": "Unit type",
+								"items": {
+									"picometre": "picometre",
+									"nanometre": "nanometre",
+									"micrometre": "micrometre",
+									"millimetre": "millimetre",
+									"centimetre": "centimetre",
+									"decimetre": "decimetre",
+									"metre": "metre",
+									"decametre": "decametre",
+									"hectoametre": "hectoametre",
+									"kilometre": "kilometre",
+									"nautical mile": "nautical mile",
+									"foot": "foot",
+									"inch": "inch",
+									"yard": "yard",
+									"fathom": "fathom",
+									"mile": "mile",
+									"lunar distance": "lunar distance",
+									"astronomical unit": "astronomical unit",
+									"light year": "light year",
+									"parsec": "parsec"
+								}
+							}
+						}
+					},
+					"addval": {
+						"list-name": "Add Value",
+						"display-text": "Add Value {0} {1}",
+						"description": "Add Value.",
+						"params": {
+							"num": {
+								"name": "Number", 
+								"desc": "The number to increment value."
+							},
+							"type": {
+								"name": "Unit type", 
+								"desc": "Unit type in which the value was given.",
+								"items": {
+									"picometre": "picometre",
+									"nanometre": "nanometre",
+									"micrometre": "micrometre",
+									"millimetre": "millimetre",
+									"centimetre": "centimetre",
+									"decimetre": "decimetre",
+									"metre": "metre",
+									"decametre": "decametre",
+									"hectoametre": "hectoametre",
+									"kilometre": "kilometre",
+									"nautical mile": "nautical mile",
+									"foot": "foot",
+									"inch": "inch",
+									"yard": "yard",
+									"fathom": "fathom",
+									"mile": "mile",
+									"lunar distance": "lunar distance",
+									"astronomical unit": "astronomical unit",
+									"light year": "light year",
+									"parsec": "parsec"
+								}
+							}
+						}
+					},
+					"toprecision": {
+						"list-name": "to Precision",
+						"display-text": "to Precision {0}",
+						"description": "The number of digits to appear after the decimal point.",
+						"params": {
+							"num": {
+								"name": "Number", 
+								"desc": "Number"
+							}
+						}
+					}
+				},
+				"expressions": {
+					"getstring": {
+						"description":"Get result as string",
+						"translated-name":"Get result as string"
+					},
+					"getunit": {
+						"description":"Get current Unit/Type",
+						"translated-name":"Get current Unit/Type"
+					},
+					"getvalue": {
+						"description":"Get current value",
+						"translated-name":"Get current value"
+					}
+				}
+			}
+		}
+	}
+}
